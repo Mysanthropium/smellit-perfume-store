@@ -17,9 +17,9 @@
                 Men's Perfume
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="perfume-link">
-                <a href="" class="dropdown-item">Cologne</a>
-                <a href="" class="dropdown-item">Deodorant</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=cologne" class="dropdown-item">Cologne</a>
+                <a href="{% url 'products' %}?category=deodorant" class="dropdown-item">Deodorant</a>
+                <a href="{% url 'products' %}?category=cologne,deodorant,deals,new_arrivals" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -28,10 +28,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
