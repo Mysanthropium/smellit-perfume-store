@@ -31,8 +31,6 @@ def cache_checkout_data(request):
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
-    print("This is the stripe public key:", stripe_public_key)
-    print("This is the stripe secret key:", stripe_secret_key)
 
     if request.method == 'POST':
         bag = request.session.get('bag', {})
