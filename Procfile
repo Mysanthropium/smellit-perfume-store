@@ -1,0 +1,1 @@
+web: gunicorn smellit_perfume_store.wsgi:application
