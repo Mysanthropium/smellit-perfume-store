@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['smellit-perfume-store-8571815b705d.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['smellit-perfume-store-8571815b705d.herokuapp.com', '8000-mysanthropi-smellitperf-btg9a877piy.ws-eu102.gitpod.io', 'localhost']
 
 
 # Application definition
