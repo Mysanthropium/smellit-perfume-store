@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-@mf3$is(6535dy7muldr!+f%1jo!xq-v%5stk8%9atcfp%a4&c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smellit-perfume-store.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['smellit-perfume-store-8571815b705d.herokuapp.com', 'localhost']
 
 
 # Application definition
