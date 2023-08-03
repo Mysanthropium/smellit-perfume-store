@@ -29,7 +29,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['smellit-perfume-store-8571815b705d.herokuapp.com', '8000-mysanthropi-smellitperf-btg9a877piy.ws-eu102.gitpod.io', 'localhost']
+ALLOWED_HOSTS = [
+    'smellit-perfume-store-8571815b705d.herokuapp.com',
+    '8000-mysanthropi-smellitperf-btg9a877piy.ws-eu102.gitpod.io',
+    'localhost'
+    ]
 
 
 # Application definition
@@ -81,7 +85,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by django allauth, do not remove this line
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
