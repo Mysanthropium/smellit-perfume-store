@@ -4,7 +4,7 @@ from .models import Post
 from django.urls import reverse_lazy
 
 
-class BlogView(ListView):
+class PostList(ListView):
     model = Post
     template_name = 'blog.html'
 
