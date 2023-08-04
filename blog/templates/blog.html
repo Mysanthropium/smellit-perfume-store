@@ -26,6 +26,7 @@
                         {{ post.title }}
                     </a>
                     <a class="text-info" href="{% url 'edit_post' post.pk %}"><small>(Edit)</small></a>
+                    <a class="text-danger" href="{% url 'delete_post' post.pk %}"><small>(Delete)</small></a>
                     <br>
                     {{ post.body }}
                 </li>{% endfor %}
