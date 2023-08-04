@@ -144,9 +144,10 @@
 
     {% block page_header %}
     {% endblock %}
-
+    <div class="content">
     {% block content %}
     {% endblock %}
+    </div>
     {% include 'includes/footer.html' %}
     {% block postloadjs %}
         <script type="text/javascript">
