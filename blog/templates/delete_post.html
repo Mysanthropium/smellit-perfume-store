@@ -13,6 +13,7 @@
     <div class="overlay"></div>
     <div class="container-fluid mb-2 header-container">
         <div class="col">
+            {% if request.user.is_superuser %}
             <div class="col text-center mt-3">
                 <h2 class="logo-font text-center">Delete: {{ post.title }}</h2>
             </div>
@@ -30,6 +31,17 @@
                 </span>
                 <span class="text-uppercase">Back to blog</span>
             </a>
+            {% else %}
+            <div class="col text-center mt-3">
+                <h2 class="logo-font text-center">You're not allowed on this page.</h2>
+                <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                    <span class="icon">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span class="text-uppercase">Back to blog</span>
+                </a>
+            </div>
+            {% endif %}
         </div>
     </div>
 {% endblock %}
