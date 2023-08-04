@@ -25,22 +25,22 @@
                     <a class="text-black" href="{% url 'post_detail' post.pk %}">
                         {{ post.title }}
                     </a>
-                    <a class="text-info" href="{% url 'edit_post' post.pk %}"><small>(Edit)</small></a>
-                    <a class="text-danger" href="{% url 'delete_post' post.pk %}"><small>(Delete)</small></a>
+                    {% if request.user.is_superuser %}
+                        <a class="text-info" href="{% url 'edit_post' post.pk %}"><small>(Edit)</small></a>
+                        <a class="text-danger" href="{% url 'delete_post' post.pk %}"><small>(Delete)</small></a>
+                    {% endif %}
                     <br>
                     {{ post.post_date }}
                     <br>
-                    {{ post.body }}
+                    {{ post.body|slice:":200"|safe }}
                 </li>{% endfor %}
                 </ul>
             </div>
         </div>
-        {% if request.user.is_authenticated %}
-            {% if request.user.is_superuser %}
-                <a href="{% url 'add_post' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                    <span class="text-uppercase">Add New Post</span>
-                </a>
-            {% endif %}
+        {% if request.user.is_superuser %}
+            <a href="{% url 'add_post' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                <span class="text-uppercase">Add New Post</span>
+            </a>
         {% endif %}
     </div>
 {% endblock %}
