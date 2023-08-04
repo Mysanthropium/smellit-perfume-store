@@ -22,14 +22,22 @@
                 <ul>
                     {% for post in object_list %}
                 <li>
-                    <a href="{% url 'post_detail' post.pk %}">
+                    <a class="text-black" href="{% url 'post_detail' post.pk %}">
                         {{ post.title }}
                     </a>
+                    <a class="text-info" href="{% url 'edit_post' post.pk %}"><small>(Edit)</small></a>
                     <br>
                     {{ post.body }}
                 </li>{% endfor %}
                 </ul>
             </div>
         </div>
+        {% if request.user.is_authenticated %}
+            {% if request.user.is_superuser %}
+                <a href="{% url 'add_post' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                    <span class="text-uppercase">Add New Post</span>
+                </a>
+            {% endif %}
+        {% endif %}
     </div>
 {% endblock %}
