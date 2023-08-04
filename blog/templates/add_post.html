@@ -19,17 +19,12 @@
             <form method="POST">
                 {% csrf_token %}
                 {{ form|crispy }}
-                <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                    <span class="text-uppercase">Create Post</span>
-                </a>
+                <div class="text-right">
+                    <a class="btn btn-outline-black rounded-0" href="{% url 'blog' %}">Cancel</a>
+                    <button class="btn btn-black rounded-0" type="submit">Create Post</button>
+                </div>
             </form>
             <br>
-            <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                <span class="icon">
-                    <i class="fas fa-chevron-left"></i>
-                </span>
-                <span class="text-uppercase">Back to blog</span>
-            </a>
         </div>
     </div>
 {% endblock %}
