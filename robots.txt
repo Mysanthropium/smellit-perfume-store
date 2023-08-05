@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /accounts/
+Sitemap: https://smellit-perfume-store-8571815b705d.herokuapp.com/sitemap.xml
