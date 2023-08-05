@@ -15,6 +15,10 @@ body {
     height: 100%;
 }
 
+.display-4 {
+    line-height: 0.8 !important;
+}
+
 .content {
     flex: 1 0 auto;
 }
@@ -312,6 +316,10 @@ input[name='q']::placeholder {
 
     .header-container {
         padding-top: 164px;
+    }
+
+    .display-4 {
+        font-size: 2rem;
     }
 }
 
