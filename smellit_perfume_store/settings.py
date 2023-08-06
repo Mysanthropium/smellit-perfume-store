@@ -177,7 +177,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 # if 'DEVELOPMENT' in os.environ:
-    
+
 # else:
 if 'USE_AWS' in os.environ:
     # Cache control
