@@ -120,7 +120,7 @@ input[name='q']::placeholder {
 }
 
 /* ------------------------------- footer */
-
+/* Credit to CSS-tricks.com and bootstrap docs for making this work */
 .footer {
 	background-color: white;
 	flex-shrink: 0;
