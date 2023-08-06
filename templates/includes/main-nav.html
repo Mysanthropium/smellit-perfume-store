@@ -2,12 +2,12 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
-                Home
+            Home
             </a>
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+            All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
@@ -16,10 +16,9 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="perfume-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Men's Cologne
+            Men's Cologne
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="perfume-link">
                 <a href="{% url 'products' %}?category=cologne" class="dropdown-item">Cologne</a>
@@ -27,10 +26,9 @@
                 <a href="{% url 'products' %}?category=cologne,deodorant,deals,new_arrivals" class="dropdown-item">All Products</a>
             </div>
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+            Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
@@ -38,12 +36,11 @@
                 <a href="{% url 'products' %}?category=new_arrivals,deals" class="dropdown-item">All Specials</a>
             </div>
         </li>
-
         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'blog' %}" id="blog-link">
-            Blog
+        Blog
         </a>
         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'contact' %}" id="blog-link">
-            Contact Us
+        Contact Us
         </a>
     </ul>
 </div>

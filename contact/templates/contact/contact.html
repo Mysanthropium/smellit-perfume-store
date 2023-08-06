@@ -1,29 +1,27 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
-
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container-fluid mb-2 header-container">
-        <div class="col">
-            <div class="col text-center mt-3">
-                <h2 class="logo-font text-center">Contact Us</h2>
-            </div>
-            <form method="POST">
-                {% csrf_token %}
-                {{ contact_form|crispy }}
-                <div class="text-right">
-                    <button class="btn btn-black rounded-0" type="submit">Send</button>
-                </div>
-            </form>
-            <br>
+<div class="overlay"></div>
+<div class="container-fluid mb-2 header-container">
+    <div class="col">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font text-center">Contact Us</h2>
         </div>
+        <form method="POST">
+            {% csrf_token %}
+            {{ contact_form|crispy }}
+            <div class="text-right">
+                <button class="btn btn-black rounded-0" type="submit">Send</button>
+            </div>
+        </form>
+        <br>
     </div>
+</div>
 {% endblock %}

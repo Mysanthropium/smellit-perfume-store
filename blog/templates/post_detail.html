@@ -1,39 +1,37 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
-
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container-fluid mb-2 header-container">
-        <div class="col">
-            <div class="col text-center mt-3">
-                <h2 class="logo-font text-center">{{ post.title }}</h2>
-                {% if request.user.is_superuser %}
-                    <a class="text-info" href="{% url 'edit_post' post.pk %}"><small>(Edit)</small></a>
-                    <a class="text-danger" href="{% url 'delete_post' post.pk %}"><small>(Delete)</small></a>
-                {% endif %}
-            </div>
-            <div class="col-md-8 card mb-4  mt-3 mx-auto">
-                <div class="row">
-                    <div class="card-body">{{ post.post_date }}</div>
-                </div>
-                <div class="row">
-                    <div class="card-body">{{ post.body|safe }}</div>
-                </div>
-            </div>
-            <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                <span class="icon">
-                    <i class="fas fa-chevron-left"></i>
-                </span>
-                <span class="text-uppercase">Back to blog</span>
-            </a>
+<div class="overlay"></div>
+<div class="container-fluid mb-2 header-container">
+    <div class="col">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font text-center">{{ post.title }}</h2>
+            {% if request.user.is_superuser %}
+            <a class="text-info" href="{% url 'edit_post' post.pk %}"><small>(Edit)</small></a>
+            <a class="text-danger" href="{% url 'delete_post' post.pk %}"><small>(Delete)</small></a>
+            {% endif %}
         </div>
+        <div class="col-md-8 card mb-4  mt-3 mx-auto">
+            <div class="row">
+                <div class="card-body">{{ post.post_date }}</div>
+            </div>
+            <div class="row">
+                <div class="card-body">{{ post.body|safe }}</div>
+            </div>
+        </div>
+        <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 btn-lg">
+        <span class="icon">
+        <i class="fas fa-chevron-left"></i>
+        </span>
+        <span class="text-uppercase">Back to blog</span>
+        </a>
     </div>
+</div>
 {% endblock %}
