@@ -22,6 +22,8 @@ The goal is to give the user a nice experience throughout the whole website, on 
 * Contact the owner to give feedback, blog requests or general questions.
 * The target audience is mostly males between 16-55 years old.
 
+#### The business is a B2C e-commerce platform
+
 ## Design
 Since I like perfumes and didn't really know anything about it except that they smell good, I thought this would be a great idea for me to be able to research a bit more about the differences and how they are made. That's how I also came up with the idea of adding a blog to share som research with the users.
 
@@ -248,4 +250,105 @@ At the top left corner of the page there's a logo which will take the user to th
 * Link to my user stories is [here](https://github.com/users/Mysanthropium/projects/5)
 
 # Testing
-* Link to the testing page is [here]()
+* Link to the testing page is [here](https://github.com/Mysanthropium/smellit-perfume-store/blob/main/TESTING.md)
+
+# Technologies Used
+### Languages
+- HTML5
+- CSS
+- Python
+- JavaScript
+
+### Frameworks
+- Django
+- Bootstrap
+
+### Libraries
+- Font Awesome
+- Google Fonts
+
+### Other Tools Used
+- GitHub, used to store code and user stories
+- Gitpod, my IDE of choice for the application
+- Git, used for version control
+- Heroku, for deployment and hosting of the application
+- PostgreSQL, used for storing data for this project
+- AWS S3 Bucket, my choice for hosting static files and media files
+- Stripe, used for secure payment and to validate credit cards
+- [Freeformatter](https://www.freeformatter.com/), used to make my code look nicer and cleaner
+- [Temp-mail](https://temp-mail.org/sv/), used to test mail functions on the page
+- [Figma](https://www.figma.com/templates/wireframe-kits/), my wireframe tool of choice
+
+### Tools used for testing
+- W3C HTML Validator
+- W3C CSS Validator
+- PEP8
+- JSHint
+- DevTools Lighthouse
+- DevTools
+
+To find more about testing, click [here](https://github.com/Mysanthropium/smellit-perfume-store/blob/main/TESTING.md).
+
+[Back to top](#a-mens-perfume-e-commerce-store-online)
+
+## Deployment
+### Version Control
+Using GitPod to push code to main repository in GitHub.
+* In GitPod terminal use "git add ." to add the changes.
+* Then use "git commit -m "push comment"" to make a comment to your push.
+* Finally use "git push" to push the update to the repository on GitHub.
+
+### App Deployment
+Using Heroku for app deployment.
+- Create a new app on your dashboard.
+- Navigate to "Settings" in your new app.
+- Click reveal config vars and add these:
+
+        - DATABASE_URL
+        - PORT
+        - SECRET_KEY
+        - AWS_ACCESS_KEY_ID
+        - AWS_SECRET_ACCESS_KEY
+        - EMAIL_HOST_PASS
+        - EMAIL_HOST_USER
+        - STRIPE_PUBLIC_KEY
+        - STRIPE_SECRET_KEY
+        - STRIPE_WH_SECRET
+        - USE_AWS
+These are the keys for the final project.
+
+- Then navigate to deploy tab and connect to github, choose Enable Automatic Deploys for an easier workflow.
+
+# Credits
+### [YouTube](https://www.youtube.com/)
+* For having great learning content.
+
+### [Django](https://www.djangoproject.com/)
+* For built in admin panel and additional useful features.
+
+### [Python](python.org)
+* For beginner friendly tutorials.
+
+### [GitHub](docs.github.com)
+* For learning how to document a nice looking readme.
+
+### [Bootstrap](https://getbootstrap.com/)
+* For helping me style the project.
+
+### Code Institute
+* This project is a part of the course content.
+
+### [John Elder](https://www.youtube.com/@Codemycom)
+* For well made tutorials on how to make a blog that's easy to understand.
+
+### Code base
+* I followed along with the walkthrough project Boutique Ado to have as a base for this project.
+
+### [CSS-tricks](https://css-tricks.com/)
+* To help with css issues, like sticking the footer to bottom of the page.
+
+# Acknowledgements
+* Students at code institute on slack for solving issues together.
+* Tutors at code intitute for being of great help whenever needed.
+
+[Back to top](#a-mens-perfume-e-commerce-store-online)
