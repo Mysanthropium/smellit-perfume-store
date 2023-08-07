@@ -20,6 +20,7 @@ The goal is to give the user a nice experience throughout the whole website, on 
 * Read posts on the blog and find other useful sources about the difference between perfume and cologne for example.
 * Sign up for newsletters to be able to catch all the latest news whenever they get out.
 * Contact the owner to give feedback, blog requests or general questions.
+* The target audience is mostly males between 16-55 years old.
 
 ## Design
 Since I like perfumes and didn't really know anything about it except that they smell good, I thought this would be a great idea for me to be able to research a bit more about the differences and how they are made. That's how I also came up with the idea of adding a blog to share som research with the users.
@@ -58,82 +59,51 @@ I made my wireframes using [Figma Wireframes](https://www.figma.com/templates/wi
 ## Features
 - Navigation\
 At the top left corner of the page there's a logo which will take the user to the homepage. In the top middle there's a navbar which will collapse into a burger icon on smaller devices, containing a dropdown menu of All Products(sorting), a Men's Cologne dropdown menu(categories), a Special Offers dropdown menu, a link to the Blog page and a link to Contact us page. Then at the top right corner there's a dropdown menu of My Account, depending if the user is logged in or not the menu list will change accordingly.
-<br>
-<br>
+
     - Not logged in users:
-<br>
-<br>
         - All Products
             - By Price
             - By Rating
             - By Category
             - All Products
-<br>
-<br>
         - Men's Cologne
             - Cologne
             - Deodorant
             - All Products
-<br>
-<br>
         - Special Offers
             - New Arrivals
             - Deals
             - All Specials
-<br>
-<br>
         - Blog
         - Contact Us
-<br>
-<br>
         - My Account
             - Register
             - Login
-<br>
-<br>
         - Shopping Bag
-<br>
-<br>
     - Logged in users:
-<br>
-<br>
         - All Products
             - By Price
             - By Rating
             - By Category
             - All Products
-<br>
-<br>
         - Men's Cologne
             - Cologne
             - Deodorant
             - All Products
-<br>
-<br>
         - Special Offers
             - New Arrivals
             - Deals
             - All Specials
-<br>
-<br>
         - Blog
         - Contact Us
-<br>
-<br>
         - My Account
             - My Profile
             - Logout
-<br>
-<br>
         - Shopping Bag
-<br>
-<br>
     - Superusers will see all of the above plus:
         - My Account
             - Product Management
             - Add Blog Post
-<br>
-<br>
 
 <br>
 <details>
@@ -265,3 +235,17 @@ At the top left corner of the page there's a logo which will take the user to th
 
 ![shopnowbutton](static/README/images/blogcrud.jpg)
 </details>
+
+## Features Left To Implement
+* Profiles could be expanded.
+* Maybe widen the blog, let users create posts aswell.
+* Implement more products and categories, for example men's skin care.
+* To be able to add more images to product details.
+* A FAQ page.
+
+# User Stories
+
+* Link to my user stories is [here](https://github.com/users/Mysanthropium/projects/5)
+
+# Testing
+* Link to the testing page is [here]()
