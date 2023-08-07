@@ -10,8 +10,13 @@ An E-commerce store for men who seek to buy perfumes, colognes and deodorants on
 ### [Repository](https://github.com/Mysanthropium/smellit-perfume-store)
 
 ## Table of contents
-- UX
-- 
+- [UX](#ux)
+- [Features](#features)
+- [User Stories](#user-stories)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 # UX
 ### Goals For This Website:
