@@ -14,6 +14,9 @@
 
 - Found no crucial errors using flake8 command
 
+### JSHint
+- No errors found
+
 ### Lighthouse testing:
 - Desktop
     

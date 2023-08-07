@@ -283,6 +283,7 @@ At the top left corner of the page there's a logo which will take the user to th
 - [Freeformatter](https://www.freeformatter.com/), used to make my code look nicer and cleaner
 - [Temp-mail](https://temp-mail.org/sv/), used to test mail functions on the page
 - [Figma](https://www.figma.com/templates/wireframe-kits/), my wireframe tool of choice
+- [MailerLite](https://www.mailerlite.com/?source=google&medium=cpc&campaign=1.%20Brand%20-%20Exact%20[EU]%20tCPA&content=MailerLite%20Brand%20EXT&term=mailerlite&ml_campaignid=1934853293&ml_adsetid=71004315072&gad=1&gclid=Cj0KCQjwrMKmBhCJARIsAHuEAPSXHcISYTvAObpx0DaVtFNR_4Z5q0qbxY1yRWoeOvPfUGUegvEQiY4aAgZ6EALw_wcB), my newsletter tool for subscriptions
 
 ### Tools used for testing
 - W3C HTML Validator
@@ -339,6 +340,9 @@ These are the keys for the final project.
 
 ### [Bootstrap](https://getbootstrap.com/)
 * For helping me style the project.
+
+### [MailerLite](https://www.mailerlite.com/?source=google&medium=cpc&campaign=1.%20Brand%20-%20Exact%20[EU]%20tCPA&content=MailerLite%20Brand%20EXT&term=mailerlite&ml_campaignid=1934853293&ml_adsetid=71004315072&gad=1&gclid=Cj0KCQjwrMKmBhCJARIsAHuEAPSXHcISYTvAObpx0DaVtFNR_4Z5q0qbxY1yRWoeOvPfUGUegvEQiY4aAgZ6EALw_wcB)
+* For newsletter subscription
 
 ### Code Institute
 * This project is a part of the course content.
