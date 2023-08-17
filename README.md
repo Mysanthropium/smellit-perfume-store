@@ -37,6 +37,10 @@ The goal is to give the user a nice experience throughout the whole website, on 
 ## Design
 Since I like perfumes and didn't really know anything about it except that they smell good, I thought this would be a great idea for me to be able to research a bit more about the differences and how they are made. That's how I also came up with the idea of adding a blog to share som research with the users.
 
+### Database
+Before starting this project I created a database schema that helped me out alot, but was slightly changed throughout development.
+![dbschema](static/README/images/databasestructure.jpg)
+
 ### Wireframes
 I made my wireframes using [Figma Wireframes](https://www.figma.com/templates/wireframe-kits/)
 
