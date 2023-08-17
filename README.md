@@ -29,6 +29,11 @@ The goal is to give the user a nice experience throughout the whole website, on 
 
 #### The business is a B2C e-commerce platform
 
+### Facebook Business Page:
+(My site got taken down before I realized it was in Swedish.)
+![facebookpage](static/README/images/fbpage.jpg)
+![fbpresentation](static/README/images/fbpagepresentation.jpg)
+
 ## Design
 Since I like perfumes and didn't really know anything about it except that they smell good, I thought this would be a great idea for me to be able to research a bit more about the differences and how they are made. That's how I also came up with the idea of adding a blog to share som research with the users.
 
