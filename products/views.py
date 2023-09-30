@@ -67,7 +67,7 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
-    # Reviews
+    """ Reviews """
 
     if request.method == 'POST' and request.user.is_authenticated:
         form = ProductReviewForm(request.POST)
