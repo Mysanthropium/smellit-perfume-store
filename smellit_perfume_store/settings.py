@@ -27,11 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'smellit-perfume-store-8571815b705d.herokuapp.com',
-    '8000-mysanthropi-smellitperf-btg9a877piy.ws-eu102.gitpod.io',
+    '8000-mysanthropi-smellitperf-yzx9d2vkwp4.ws-eu105.gitpod.io',
     'localhost'
     ]
 
