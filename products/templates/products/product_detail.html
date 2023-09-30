@@ -109,7 +109,7 @@
             {% for review in product.reviews.all %}
                 <div class="col">
                     <p>
-                        <strong>{{ user.username }}:</strong>
+                        <strong>{{ user }}:</strong>
                     </p>
                     {{ review.content }}
                 </div>
