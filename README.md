@@ -32,7 +32,7 @@ The marketing strategy for this online shop is:
 * Implement SEO strategies to compete with bigger companies.
 * Use the blog section to write meaningful and useful posts with links to other companies.
 * Track the sales rate of different brands to choose a fitting and meaningful cover image.
-* Offer streamers and influencers with 5000+ viewers good products for them to advertise to start the flow of traffic to the site.
+* Offer streamers with 5000+ viewers good products for them to advertise to start the flow of traffic to the site.
 
 #### Goals For This Website:
 The goal is to give the user a nice experience throughout the whole website, on any device. To be able to purchase perfumes from different brands that's been handpicked by the owner, and read news about brands and the evolution of perfumes throughout the world on the blog. 
