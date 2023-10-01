@@ -10,6 +10,7 @@ An E-commerce store for men who seek to buy perfumes, colognes and deodorants on
 ### [Repository](https://github.com/Mysanthropium/smellit-perfume-store)
 
 ## Table of contents
+- [Business Modell](#business-model)
 - [UX](#ux)
 - [Features](#features)
 - [User Stories](#user-stories)
@@ -18,8 +19,22 @@ An E-commerce store for men who seek to buy perfumes, colognes and deodorants on
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-# UX
-### Goals For This Website:
+### Business Model
+The business is a B2C e-commerce platform focusing on a diverse selection of men's perfumes, fragrances and colognes from various suppliers.
+
+#### Marketing Strategy
+The marketing strategy for this online shop is:
+* Use platforms like Facebook and Instagram for advertising and engaging with customers.
+* Send newsletters and promotional emails to reach existing customers.
+* Collaborate with influencers and bloggers for product reviews.
+* Offer free shipments depending on the value of the customers shopping bag.
+* Offer gift wrapping and personalization services for additional fees.
+* Implement SEO strategies to compete with bigger companies.
+* Use the blog section to write meaningful and useful posts with links to other companies.
+* Track the sales rate of different brands to choose a fitting and meaningful cover image.
+* Offer streamers and influencers with 5000+ viewers good products for them to advertise to start the flow of traffic to the site.
+
+#### Goals For This Website:
 The goal is to give the user a nice experience throughout the whole website, on any device. To be able to purchase perfumes from different brands that's been handpicked by the owner, and read news about brands and the evolution of perfumes throughout the world on the blog. 
 * Users have the possibility to register for an account to save their information for easier purchases in the future.
 * Read posts on the blog and find other useful sources about the difference between perfume and cologne for example.
@@ -27,14 +42,14 @@ The goal is to give the user a nice experience throughout the whole website, on 
 * Contact the owner to give feedback, blog requests or general questions.
 * The target audience is mostly males between 16-55 years old.
 
-#### The business is a B2C e-commerce platform
-
-### Facebook Business Page:
+#### Facebook Business Page:
 (My site got taken down before I realized it was in Swedish.)
 ![facebookpage](static/README/images/fbpage.jpg)
 ![fbpresentation](static/README/images/fbpagepresentation.jpg)
 
-## Design
+# UX
+
+### Design
 Since I like perfumes and didn't really know anything about it except that they smell good, I thought this would be a great idea for me to be able to research a bit more about the differences and how they are made. That's how I also came up with the idea of adding a blog to share som research with the users.
 
 ### Database
