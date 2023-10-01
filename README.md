@@ -286,7 +286,7 @@ At the top left corner of the page there's a logo which will take the user to th
 - Gitpod, my IDE of choice for the application
 - Git, used for version control
 - Heroku, for deployment and hosting of the application
-- PostgreSQL, used for storing data for this project
+- elephantSQL, used for storing data for this project
 - AWS S3 Bucket, my choice for hosting static files and media files
 - Stripe, used for secure payment and to validate credit cards
 - [Freeformatter](https://www.freeformatter.com/), used to make my code look nicer and cleaner
@@ -308,31 +308,44 @@ To find more about testing, click [here](https://github.com/Mysanthropium/smelli
 
 ## Deployment
 ### Version Control
-Using GitPod to push code to main repository in GitHub.
-* In GitPod terminal use "git add ." to add the changes.
-* Then use "git commit -m "push comment"" to make a comment to your push.
-* Finally use "git push" to push the update to the repository on GitHub.
+Using Gitpod
+1. Create a Git Repository by navigating to your repositories on GitHub and click "New" in the top right corner.
+2. If you haven't already, you can choose to install the Gitpod browser extension or use the Gitpod IDE.
+3. Open a new workspace by navigating to your newly created repository and click the "Open in Gitpod" button which will open up a development environment for this repository.
+4. In your workspace, set up your environment variables and make sure your application is working by running it locally.
+5. Commit your changes to GitHub by using Git commands:
+    * git add .
+    * git commit -m "initial commit message"
+    * and push changes to GitHub with git push
 
 ### App Deployment
 Using Heroku for app deployment.
-- Create a new app on your dashboard.
-- Navigate to "Settings" in your new app.
-- Click reveal config vars and add these:
+1. Navigate to heroku.com and log in to your account, or create one if needed.
+2. On your dashboard, click the "New" button in the top right corner and choose "Create new app".
+3. Choose a name for your application, preferebly something close to the repository name on GitHub.
+4. Choose the region closest to you.
+5. Navigate to the deploy section and choose the GitHub option as deployment method. Add the correct repository to link the account.
+6. You can choose automatic deploys by enabling it with the main/master branch.
+7. Using elephantSql as the Database:
+    * Login to ElephantSQL.com
+    * On your dashboard select "Create New Instance" in the top right corner.
+    * Choose a fitting name and select a region.
+    * Choose the data center closest to you.
+    * When created, navigate to your new database and copy the URL for the database.
+8. Go back to your heroku app and navigate to the Settings tab.
+9. Click on "Reveal Config Vars" and add a new one named DATABASE_URL and paste in the database URL from elephantSql.
+10. Go to your workspace and install. "pip3 install dj_database_url" and "pip3 install psycopg2".
+11. Update the requirements.txt file using "pip3 freeze requirements.txt"
+12. Add the database url to your env.py file.
+13. Head to settings.py and change the default DATABASES setting to: 'default': dj_database_url.parse(os.environ.get('DATABASE_URL')).
+14. Run migrations for your new database:
+    * Create a new file called "Procfile" in the root directory, in that file add: web: gunicorn PROJECT_NAME.wsgi.
+    * Navigate to settings.py again and add the heroku link and the localhost link to ALLOWED_HOSTS.
+    * Update the SECRET_KEY to os.environ.get('SECRET_KEY', '')
+    * Go to your env.py file and add a new secure SECRET_KEY then copy the key.
+    * Add this SECRET_KEY to your config vars on heroku and copy in the key as the value.
+    * Go back to your workspace and push these changes to GitHub.
 
-        - DATABASE_URL
-        - PORT
-        - SECRET_KEY
-        - AWS_ACCESS_KEY_ID
-        - AWS_SECRET_ACCESS_KEY
-        - EMAIL_HOST_PASS
-        - EMAIL_HOST_USER
-        - STRIPE_PUBLIC_KEY
-        - STRIPE_SECRET_KEY
-        - STRIPE_WH_SECRET
-        - USE_AWS
-These are the keys for the final project.
-
-- Then navigate to deploy tab and connect to github, choose Enable Automatic Deploys for an easier workflow.
 
 # Credits
 ### [YouTube](https://www.youtube.com/)
