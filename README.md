@@ -253,7 +253,7 @@ At the top left corner of the page there's a logo which will take the user to th
 </details>
 
 ## Features Left To Implement
-* Profiles could be expanded.
+* User profiles could be expanded, maybe a profile page containing order history and returns.
 * Maybe widen the blog, let users create posts aswell.
 * Implement more products and categories, for example men's skin care.
 * To be able to add more images to product details.
