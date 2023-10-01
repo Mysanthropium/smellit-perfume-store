@@ -34,13 +34,28 @@ The marketing strategy for this online shop is:
 * Track the sales rate of different brands to choose a fitting and meaningful cover image.
 * Offer streamers with 5000+ viewers good products for them to advertise to start the flow of traffic to the site.
 
+Key Activities:
+* Acquire a diverse selection of men's perfumes, fragrances and colognes from various suppliers.
+* As the owner, maintain a user-friendly website with up-to-date products, pricing and blog posts.
+* Create marketing campaigns and keep up with the social media engagement.
+* Continuously use SEO optimization.
+* Offer customer support that's responsive via chat, phone and email.
+* Implement management systems to make sure the inventory doesn't get out of stock.
+
+Resouces:
+* Keep the website fully functional.
+* Make use of a marketing/advertising budget.
+* Use good tools to keep track of inventory.
+
 #### Goals For This Website:
-The goal is to give the user a nice experience throughout the whole website, on any device. To be able to purchase perfumes from different brands that's been handpicked by the owner, and read news about brands and the evolution of perfumes throughout the world on the blog. 
+The goal is to give the user a nice experience throughout the whole website, on any device. To be able to purchase perfumes from different brands that's been handpicked by the owner, and read news about brands and the evolution of perfumes throughout the world on the blog.
+* The target audience is mostly males between 16-55 years old.
 * Users have the possibility to register for an account to save their information for easier purchases in the future.
 * Read posts on the blog and find other useful sources about the difference between perfume and cologne for example.
 * Sign up for newsletters to be able to catch all the latest news whenever they get out.
 * Contact the owner to give feedback, blog requests or general questions.
-* The target audience is mostly males between 16-55 years old.
+* Keep the products and pricing up-to-date.
+* To grow as a brand and a reputation of good customer support.
 
 #### Facebook Business Page:
 (My site got taken down before I realized it was in Swedish.)
