@@ -31,4 +31,4 @@
 
 - Found an issue noimage.jpeg didn't load - fixed using .png
 - Found an issue where webhooks didn't work properly - fixed due to typo in environment variables
-- Found an issue where footer don't stick to bottom on profile page - not fixed
+- Found an issue where footer didn't stick to bottom on profile page - not fixed
