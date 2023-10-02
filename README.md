@@ -178,7 +178,7 @@ At the top left corner of the page there's a logo which will take the user to th
 <br>
 - On the product detail page users can read a description of the product, aswell as price, rating and category. There's the possibility to choose quantity of the product. There's a button to add this product to the bag and a button to go back to products page and keep shopping. 
 
-![shopnowbutton](static/README/images/productdetail.jpg)
+![shopnowbutton](static/README/images/detailproductpage.png)
 </details>
 <br>
 <details>
@@ -354,7 +354,7 @@ Using Gitpod
     * and push changes to GitHub with git push
 
 ### App Deployment
-Deploy app to Heroku.
+Deploy app to Heroku, includes setting up a database.
 1. Navigate to heroku.com and log in to your account, or create one if needed.
 2. On your dashboard, click the "New" button in the top right corner and choose "Create new app".
 3. Choose a name for your application, preferebly something close to the repository name on GitHub.
