@@ -179,7 +179,6 @@
     - Is working properly.
     - Webhooks are working properly.
 
-
 ### W3C HTML
 - No errors found
 
