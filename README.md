@@ -354,7 +354,7 @@ Using Gitpod
     * and push changes to GitHub with git push
 
 ### App Deployment
-Using Heroku for app deployment.
+Deploy app to Heroku.
 1. Navigate to heroku.com and log in to your account, or create one if needed.
 2. On your dashboard, click the "New" button in the top right corner and choose "Create new app".
 3. Choose a name for your application, preferebly something close to the repository name on GitHub.
