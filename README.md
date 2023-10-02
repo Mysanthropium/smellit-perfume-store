@@ -20,7 +20,7 @@ An E-commerce store for men who seek to buy perfumes, colognes and deodorants on
 - [Credits](#credits)
 
 ### Business Model
-The business is a B2C e-commerce platform focusing on a diverse selection of men's perfumes, fragrances and colognes from various suppliers.
+The business is an B2C e-commerce platform focusing on a diverse selection of men's perfumes, fragrances and colognes from various suppliers.
 
 #### Marketing Strategy
 The marketing strategy for this online shop is:
