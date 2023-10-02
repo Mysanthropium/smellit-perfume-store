@@ -176,7 +176,7 @@ At the top left corner of the page there's a logo which will take the user to th
 <details>
 <summary>Product Detail Page</summary>
 <br>
-- On the product detail page users can read a description of the product, aswell as price, rating and category. There's the possibility to choose quantity of the product. There's a button to add this product to the bag and a button to go back to products page and keep shopping. 
+- On the product detail page users can read a description of the product, reviews aswell as price, rating and category. There's the possibility to choose quantity of the product. There's a button to add this product to the bag and a button to go back to products page and keep shopping. Signed in users also have the possibility to add a review to this product. 
 
 ![shopnowbutton](static/README/images/detailproductpage.png)
 </details>
