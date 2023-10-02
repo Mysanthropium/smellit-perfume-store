@@ -46,10 +46,15 @@ Resouces:
 * Keep the website fully functional.
 * Make use of a marketing/advertising budget.
 * Use good tools to keep track of inventory.
+* Make use of a skilled workforce group in marketing, advertisement and e-commerce platforms.
+
+Target Audience:
+* The target audience is mostly males between 18-55 years old, due to their most likely more disposable income for luxury fragrances.
+* Customers that focuses on personal grooming and self-care.
+* Customers that follow trends and luxury brands.
 
 #### Goals For This Website:
 The goal is to give the user a nice experience throughout the whole website, on any device. To be able to purchase perfumes from different brands that's been handpicked by the owner, and read news about brands and the evolution of perfumes throughout the world on the blog.
-* The target audience is mostly males between 16-55 years old.
 * Users have the possibility to register for an account to save their information for easier purchases in the future.
 * Read posts on the blog and find other useful sources about the difference between perfume and cologne for example.
 * Sign up for newsletters to be able to catch all the latest news whenever they get out.
